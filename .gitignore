@@ -30,3 +30,9 @@ frontend/bundle-size.json
 
 # Local planning notes
 docs/superpowers/plans/
+
+# Fork: never commit signing keys or exported backups
+*.p8
+*.p12
+*.mobileprovision
+opengym-backup-*.json
